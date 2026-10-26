@@ -1,4 +1,6 @@
-# ScoreCounterApp
+# Sutato
+
+*Sutato* (スタート) is Japanese for "start". Formerly ScoreCounterApp.
 
 A simple two-sided score counter for Android. Tap a score (or **+** / **−**) for the left or right
 side, name each side if you like, and save the result as a session you can rename or delete later. Works for
@@ -86,7 +88,7 @@ The release build is not signed. Before publishing, create your own keystore and
 **From the APK file**
 1. Copy `app-debug.apk` to the phone.
 2. Open it from the Files app. If asked, allow *Install unknown apps* for that app.
-3. Tap **Install**, then open **Score Counter**.
+3. Tap **Install**, then open **Sutato**.
 
 **With USB debugging**
 ```bash
