@@ -17,10 +17,10 @@ any game where two sides keep a running score.
 ## Project layout
 
 ```
-ScoreCounterApp/
+Sutato/
 └── app/                             Android app
     └── src/main/
-        ├── java/com/example/scorecounter/
+        ├── java/app/sutato/
         │   ├── MainActivity.kt      Scores, undo, highlight, save/reset, dark mode, keep-awake, persistence
         │   └── SessionAdapter.kt    Saved-sessions list, long-press rename / delete, Session model
         └── res/
@@ -67,12 +67,12 @@ Requirements: JDK 17 and the Android SDK (platform 34). The project uses AGP 8.1
 and Gradle 8.13 (wrapper included).
 
 ### Android Studio
-1. *File → Open…* and choose the `ScoreCounterApp` folder.
+1. *File → Open…* and choose the `Sutato` folder.
 2. Let Gradle sync, then press **Run** with a device or emulator selected.
 
 ### Command line
 ```bash
-cd ScoreCounterApp
+cd Sutato
 # point Gradle at your SDK once
 echo "sdk.dir=$ANDROID_HOME" > local.properties
 
