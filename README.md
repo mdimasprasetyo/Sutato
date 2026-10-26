@@ -1,4 +1,6 @@
-# ScoreCounterApp
+# Sutato
+
+*Sutato* (スタート) is Japanese for "start". Formerly ScoreCounterApp.
 
 A simple two-sided score counter for Android. Tap a score (or **+** / **−**) for the left or right
 side, name each side if you like, and save the result as a session you can rename or delete later. Works for
@@ -15,10 +17,10 @@ any game where two sides keep a running score.
 ## Project layout
 
 ```
-ScoreCounterApp/
+Sutato/
 └── app/                             Android app
     └── src/main/
-        ├── java/com/example/scorecounter/
+        ├── java/app/sutato/
         │   ├── MainActivity.kt      Scores, undo, highlight, save/reset, dark mode, keep-awake, persistence
         │   └── SessionAdapter.kt    Saved-sessions list, long-press rename / delete, Session model
         └── res/
@@ -65,12 +67,12 @@ Requirements: JDK 17 and the Android SDK (platform 34). The project uses AGP 8.1
 and Gradle 8.13 (wrapper included).
 
 ### Android Studio
-1. *File → Open…* and choose the `ScoreCounterApp` folder.
+1. *File → Open…* and choose the `Sutato` folder.
 2. Let Gradle sync, then press **Run** with a device or emulator selected.
 
 ### Command line
 ```bash
-cd ScoreCounterApp
+cd Sutato
 # point Gradle at your SDK once
 echo "sdk.dir=$ANDROID_HOME" > local.properties
 
@@ -86,7 +88,7 @@ The release build is not signed. Before publishing, create your own keystore and
 **From the APK file**
 1. Copy `app-debug.apk` to the phone.
 2. Open it from the Files app. If asked, allow *Install unknown apps* for that app.
-3. Tap **Install**, then open **Score Counter**.
+3. Tap **Install**, then open **Sutato**.
 
 **With USB debugging**
 ```bash

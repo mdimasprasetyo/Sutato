@@ -1,4 +1,4 @@
-package com.example.scorecounter
+package app.sutato
 
 import android.app.AlertDialog
 import android.content.Context

@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.scorecounter'
+    namespace 'app.sutato'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.example.scorecounter"
+        applicationId "app.sutato"
         minSdk 21
         targetSdk 34
         versionCode 2
