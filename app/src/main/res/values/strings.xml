@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Score Counter</string>
+    <string name="app_name">Sutato</string>
     <string name="left_side_name">Name</string>
     <string name="default_score">0</string>
     <string name="session_name">Session name (optional)</string>

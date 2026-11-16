@@ -1,6 +1,6 @@
 <resources>
     <!-- Dark only, like Pickles: navy background, panels, Volt accent, Plus Jakarta Sans -->
-    <style name="Theme.ScoreCounterApp" parent="Theme.Material3.Dark.NoActionBar">
+    <style name="Theme.Sutato" parent="Theme.Material3.Dark.NoActionBar">
         <item name="colorPrimary">@color/volt</item>
         <item name="colorOnPrimary">@color/navy</item>
         <item name="colorPrimaryContainer">@color/panel_high</item>
